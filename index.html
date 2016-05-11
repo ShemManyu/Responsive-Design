@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Recursive Design</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+		body{
+				width:80%;
+				margin:auto;
+				padding:1px;
+				border: 1px solid black;
+			}
+		h1{
+			text-align:center;
+			color: white;
+			background: blue;
+			}
+		h1:hover{
+					color:blue;
+					background:white;
+					border: 1px solid blue;
+				}
+		.img{
+			width:300px;
+			height:auto;
+			margin:bottom 5px; 	
+			}
+		.image{
+				width:300px;
+				display:inline-block;
+				vertical-align:top;
+				text-align:center;
+			}
+		.description{
+						color:white;
+						width:100%;
+						background:black;
+						text-description:underline; 						
+					}
+		.description:hover{
+							background:white;
+							color:black;
+							text-transform:uppercase;
+							}
+		@media screen and (max-width:1048px){
+												body{
+													width:100%;
+												}
+												.img, .image{
+															width:300px;
+															}
+											}
+		@media screen and (max-width:514px){
+											body{
+												width:100%;
+												}
+												.img, .image{
+															width:99.7%;
+														}
+										}
+		</style>
+	</head>
+		<body>
+			<div class="container">
+				<h1> IMAGE GALLERY</h1>
+				<div class="image">
+					<img src="imag/new1.jpg" class="img">
+						<div class="description">
+							<p>Beautiful bridges</p>
+						</div>
+				</div>
+				
+				<div class="image">
+					<img src="imag/new.jpg" class="img">
+						<div class="description">
+							<p>Lemme see you do the Yoga</p>
+						</div>
+				</div>
+				
+				<div class="image">
+					<img src="imag/new2.jpg" class="img">
+						<div class="description">
+							<p>Mountain and a lake</p>
+						</div>
+				</div>
+				
+				<div class="image">
+					<img src="imag/new3.jpg" class="img">
+						<div class="description">
+							<p>Nature is so cool</p>
+						</div>
+				</div>
+				
+			</div>
+		</body>
+</html>
